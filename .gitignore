@@ -1,0 +1,10 @@
+# Build Files #
+/build*
+
+
+# uVision #
+###########
+*uvopt.bak
+*uvproj.bak
+*.uvgui*
+*.dep
