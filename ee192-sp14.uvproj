@@ -350,7 +350,7 @@
               <MiscControls>--gnu</MiscControls>
               <Define>TARGET_KL25Z,  TARGET_M0P,  TARGET_Freescale,  TOOLCHAIN_ARM_STD,  TOOLCHAIN_ARM,  __CORTEX_M0PLUS,  ARM_MATH_CM0PLUS,</Define>
               <Undefine></Undefine>
-              <IncludePath>.;  mbed;  mbed/TARGET_KL25Z;  mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD</IncludePath>
+              <IncludePath>.;  mbed;  mbed/TARGET_KL25Z;  mbed/TARGET_KL25Z/TOOLCHAIN_ARM_STD; NBPrint</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -409,6 +409,16 @@
               <FileName>main.cpp</FileName>
               <FileType>8</FileType>
               <FilePath>main.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>NBPrint.cpp</FileName>
+              <FileType>8</FileType>
+              <FilePath>.\NBPrint\NBPrint.cpp</FilePath>
+            </File>
+            <File>
+              <FileName>NBPrint.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\NBPrint\NBPrint.h</FilePath>
             </File>
           </Files>
         </Group>
